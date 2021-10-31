@@ -1,0 +1,23 @@
+{
+  "name": "WealthMonteCarlo",
+  "version": "1.0.0",
+  "description": "Async locking mechanisms for node and browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weinandt/WealthMonteCarlo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weinandt/WealthMonteCarlo/issues"
+  },
+  "homepage": "https://github.com/weinandt/WealthMonteCarlo#readme",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}

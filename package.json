@@ -1,10 +1,13 @@
 {
   "name": "WealthMonteCarlo",
   "version": "1.0.0",
-  "description": "Async locking mechanisms for node and browser.",
+  "description": "Calculates percentile returns for defined probablities and payoffs.",
   "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
-    "lint": "eslint . --ext .ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,12 +20,7 @@
     "url": "https://github.com/weinandt/WealthMonteCarlo/issues"
   },
   "homepage": "https://github.com/weinandt/WealthMonteCarlo#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "@typescript-eslint/parser": "^5.2.0",
-    "eslint": "^8.1.0",
-    "ts-node": "^10.4.0",
-    "typescript": "^4.4.4"
+  "dependencies": {
+    "tdigest": "^0.1.1"
   }
 }

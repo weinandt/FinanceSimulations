@@ -1,11 +1,3 @@
-# Monte Carlo Wealth
-
-Calculates percentile returns for defined probablities and payoffs.
-
-## Example
-When playing a game where 20% of them time you lose 50% of you money, 20% of the time you make 50%, and the rest you gain 5%. This example is taken from "Safe Haven" by Spitznagel. Using this simulator shows that playing this game in the long run is not a good idea.
-
-``` javascript
 import { Simulator, ProbAndResult, printReturns } from '../src/simulator.mjs'
 
 const probAndResults = [
@@ -32,4 +24,3 @@ Percent of Wealth Left: 63.50% Percentile: 90th
 Percent of Wealth Left: 495.61% Percentile: 95th
 Percent of Wealth Left: 34433.24% Percentile: 99th
  */
-```

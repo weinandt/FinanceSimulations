@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "lib": [
-            "es2020"
+            "es2020",
+            "DOM"
         ],
         "module": "commonjs",
         "target": "es2020",
@@ -14,5 +15,5 @@
     },
     "include": [
         "src/**/*"
-    ],
+, "examples/sAndP500.ts"    ],
 }
